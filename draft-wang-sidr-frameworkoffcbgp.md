@@ -75,9 +75,7 @@ informative:
 
 --- abstract
 
-This document defines a standard profile for the framework of Forwarding Commitment BGP (FC-BGP). 
-
-used in Resource Public Key Infrastructure (RPKI). A FC is a digitally signed object that provides a means of verifying that an IP address prefix is announced from `AS a` to `AS b`. When validated, a FC's eContent can be used for detection and mitigation of route hijacking and provide protection for the AS_PATH attribute in BGP-UPDATE.
+This document defines a standard profile for the framework of Forwarding Commitment BGP (FC-BGP).  A FC is a digitally signed object that provides a means of verifying that an IP address prefix is announced from `AS a` to `AS b`. When validated, a FC's eContent can be used for detection and mitigation of route hijacking and provide protection for the AS_PATH attribute in BGP-UPDATE.
 
 
 --- middle
