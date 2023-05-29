@@ -2,10 +2,13 @@
 
 
 
-Secure Inter-Domain Routing                                   Y. N. Here
-Internet-Draft                                    Your Organization Here
-Intended status: Informational                               27 May 2023
-Expires: 28 November 2023
+Secure Inter-Domain Routing                                        K. Xu
+Internet-Draft                                                   X. Wang
+Intended status: Standards Track                                  Z. liu
+Expires: 30 November 2023                                          L. Qi
+                                                                   J. Wu
+                                                     Tsinghua University
+                                                             29 May 2023
 
 
                     draft-wang-sidr-frameworkoffcbgp
@@ -13,7 +16,12 @@ Expires: 28 November 2023
 
 Abstract
 
-   TODO Abstract
+   This document defines a standard profile for the framework of
+   Forwarding Commitment BGP (FC-BGP).  A FC is a digitally signed
+   object that provides a means of verifying that an IP address prefix
+   is announced from AS a to AS b.  When validated, a FC's eContent can
+   be used for detection and mitigation of route hijacking and provide
+   protection for the AS_PATH attribute in BGP-UPDATE.
 
 About This Document
 
@@ -48,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 November 2023.
+   This Internet-Draft will expire on 30 November 2023.
 
 Copyright Notice
 
@@ -70,9 +78,11 @@ Table of Contents
    2.  Conventions and Definitions
    3.  Security Considerations
    4.  IANA Considerations
-   5.  Normative References
+   5.  References
+     5.1.  Normative References
+     5.2.  Informative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -94,7 +104,9 @@ Table of Contents
 
    This document has no IANA actions.
 
-5.  Normative References
+5.  References
+
+5.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -105,12 +117,56 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
+5.2.  Informative References
+
+   [X.680]    ITU-T, "Information technology -- Abstract Syntax Notation
+              One (ASN.1): Specification of basic notation",
+              Recommendation ITU-T X.680 , February 2021,
+              <https://itu.int/rec/T-REC-X.680-202102-I/en>.
+
+   [X.690]    ITU-T, "Information technology - ASN.1 encoding rules:
+              Specification of Basic Encoding Rules (BER), Canonical
+              Encoding Rules (CER) and Distinguished Encoding Rules
+              (DER)", Recommendation ITU-T X.690 , February 2021,
+              <[https://itu.int/rec/T-REC-X.680-202102-
+              I/en](https://www.itu.int/rec/T-REC-X.690-202102-I/en)>.
+
 Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
 
-   Your Name Here
-   Your Organization Here
-   Email: 116416887+LucasWang86@users.noreply.github.com
+   Ke Xu
+   Tsinghua University
+   Beijing
+   China
+   Email: xuke@tsinghua.edu.cn
+
+
+   Xiaoliang Wang
+   Tsinghua University
+   Beijing
+   China
+   Email: wangxiaoliang0623@foxmail.com
+
+
+   Zhuotao liu
+   Tsinghua University
+   Beijing
+   China
+   Email: zhuotaoliu@tsinghua.edu.cn
+
+
+   Li Qi
+   Tsinghua University
+   Beijing
+   China
+   Email: qli01@tsinghua.edu.cn
+
+
+   Jianping Wu
+   Tsinghua University
+   Beijing
+   China
+   Email: jianping@cernet.edu.cn
