@@ -1,9 +1,9 @@
 ---
 title: "Framework of Forwarding Commitment BGP"
-abbrev: "fcbgp"
+# abbrev: "framework-of-fcbgp"
 category: std
 
-docname: draft-wang-sidr-frameworkoffcbgp-latest
+docname: draft-wang-sidr-fcbgp-framework-latest
 submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
 number:
 date:
@@ -55,10 +55,10 @@ author:
       email: jianping@cernet.edu.cn
 
 normative:
-  RFC4271: # TEST
-  RFC8205: # TEST
-  RFC6480: # TEST
-  RFC8209: # TEST
+  RFC4271:
+  RFC8205:
+  RFC6480:
+  RFC8209:
 
 
 informative:
@@ -169,7 +169,7 @@ When AS D receives the route from C, it can determine the authenticity of the cu
 
 # Forwarding Validation
 
-As shown in {{figure2}}, to enable forwarding validation, ASes need to announce the traffic-FCs binding relationships. Specifically, suppose AS D confirms that the AS-path C->B->A for reaching prefix P(A) is legitimate, it binds the traffic (src:P(D),dst:P(A)) (where P(D) is the prefix owned by AS D) with the FC list F(C,D,P)-F(B,C,P)-F(A,B,P), and then publicly announces the binding relationship.
+As shown in {{figure2}}, to enable forwarding validation, ASes need to announce the traffic-FCs binding relationships. Specifically, suppose AS D confirms that the AS-path C->B->A for reaching prefix P(A) is legitimate, it binds the traffic (src:P(D), dst:P(A)) (where P(D) is the prefix owned by AS D) with the FC list F(C,D,P)-F(B,C,P)-F(A,B,P), and then publicly announces the binding relationship.
 
 Upon receiving the relationship, other ASes can build traffic filtering rules based on the relationship to enable forwarding validation on the data plane. For instance, by interpreting the binding relationship produced by AS D, AS C confirms that the traffic (src:P(D), dst:P(A)) shall be forwarded over the link L(CD), and AS B confirms that the traffic shall be forwarded on link L(BC). Network traffic violating these binding rules is considered to take unauthorized paths.
 
