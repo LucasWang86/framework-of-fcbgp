@@ -16,7 +16,7 @@
 <meta content="xml2rfc 3.17.3" name="generator">
 <meta content="BGP Security" name="keyword">
 <meta content="Inter-Domain Forwarding" name="keyword">
-<meta content="draft-wang-sidr-frameworkoffcbgp-latest" name="ietf.draft">
+<meta content="draft-wang-sidr-fcbgp-framework-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.17.3
     Python 3.11.4
@@ -33,7 +33,7 @@
     six 1.16.0
     wcwidth 0.2.6
 -->
-<link href="draft-wang-sidr-frameworkoffcbgp.xml" rel="alternate" type="application/rfc+xml">
+<link href="draft-wang-sidr-fcbgp-framework.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
 <style type="text/css">@font-face {
   font-family: 'Lora';
@@ -1051,7 +1051,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <table class="ears">
 <thead><tr>
 <td class="left">Internet-Draft</td>
-<td class="center">fcbgp</td>
+<td class="center">Framework of Forwarding Commitment BGP</td>
 <td class="right">June 2023</td>
 </tr></thead>
 <tfoot><tr>
@@ -1066,7 +1066,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dt class="label-workgroup">Workgroup:</dt>
 <dd class="workgroup">Secure Inter-Domain Routing</dd>
 <dt class="label-internet-draft">Internet-Draft:</dt>
-<dd class="internet-draft">draft-wang-sidr-frameworkoffcbgp-latest</dd>
+<dd class="internet-draft">draft-wang-sidr-fcbgp-framework-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
 <time datetime="2023-06-26" class="published">26 June 2023</time>
@@ -1112,7 +1112,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <p id="section-note.1-1">This note is to be removed before publishing as an RFC.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
 <p id="section-note.1-2">
         The latest revision of this draft can be found at <span><a href="https://LucasWang86.github.io/framework-of-fcbgp/draft-wang-sidr-frameworkoffcbgp.html">https://LucasWang86.github.io/framework-of-fcbgp/draft-wang-sidr-frameworkoffcbgp.html</a></span>.
-        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-wang-sidr-frameworkoffcbgp/">https://datatracker.ietf.org/doc/draft-wang-sidr-frameworkoffcbgp/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
+        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-wang-sidr-fcbgp-framework/">https://datatracker.ietf.org/doc/draft-wang-sidr-fcbgp-framework/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
 <p id="section-note.1-3">Source for this draft and an issue tracker can be found at
         <span><a href="https://github.com/LucasWang86/framework-of-fcbgp">https://github.com/LucasWang86/framework-of-fcbgp</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
 </section>
@@ -1338,7 +1338,7 @@ Upon receiving a BGP announcement, if AS A decides to accept the route and exten
       <h2 id="name-forwarding-validation">
 <a href="#section-5" class="section-number selfRef">5. </a><a href="#name-forwarding-validation" class="section-name selfRef">Forwarding Validation</a>
       </h2>
-<p id="section-5-1">As shown in <a href="#figure2" class="auto internal xref">Figure 2</a>, to enable forwarding validation, ASes need to announce the traffic-FCs binding relationships. Specifically, suppose AS D confirms that the AS-path C-&gt;B-&gt;A for reaching prefix P(A) is legitimate, it binds the traffic (src:P(D),dst:P(A)) (where P(D) is the prefix owned by AS D) with the FC list F(C,D,P)-F(B,C,P)-F(A,B,P), and then publicly announces the binding relationship.<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-5-1">As shown in <a href="#figure2" class="auto internal xref">Figure 2</a>, to enable forwarding validation, ASes need to announce the traffic-FCs binding relationships. Specifically, suppose AS D confirms that the AS-path C-&gt;B-&gt;A for reaching prefix P(A) is legitimate, it binds the traffic (src:P(D), dst:P(A)) (where P(D) is the prefix owned by AS D) with the FC list F(C,D,P)-F(B,C,P)-F(A,B,P), and then publicly announces the binding relationship.<a href="#section-5-1" class="pilcrow">¶</a></p>
 <p id="section-5-2">Upon receiving the relationship, other ASes can build traffic filtering rules based on the relationship to enable forwarding validation on the data plane. For instance, by interpreting the binding relationship produced by AS D, AS C confirms that the traffic (src:P(D), dst:P(A)) shall be forwarded over the link L(CD), and AS B confirms that the traffic shall be forwarded on link L(BC). Network traffic violating these binding rules is considered to take unauthorized paths.<a href="#section-5-2" class="pilcrow">¶</a></p>
 <p id="section-5-3">To enable network-wide forwarding verification, these binding rules may be further broadcast globally (instead of just informing the ASes on the AS-path) so that off-path ASes can also discard unauthorized flows.<a href="#section-5-3" class="pilcrow">¶</a></p>
 </section>

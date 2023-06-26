@@ -12,7 +12,7 @@ Expires: 28 December 2023                                          L. Qi
 
 
                  Framework of Forwarding Commitment BGP
-                draft-wang-sidr-frameworkoffcbgp-latest
+                 draft-wang-sidr-fcbgp-framework-latest
 
 Abstract
 
@@ -31,8 +31,8 @@ About This Document
    The latest revision of this draft can be found at
    https://LucasWang86.github.io/framework-of-fcbgp/draft-wang-sidr-
    frameworkoffcbgp.html.  Status information for this document may be
-   found at https://datatracker.ietf.org/doc/draft-wang-sidr-
-   frameworkoffcbgp/.
+   found at https://datatracker.ietf.org/doc/draft-wang-sidr-fcbgp-
+   framework/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/LucasWang86/framework-of-fcbgp.
@@ -273,7 +273,7 @@ Table of Contents
    As shown in Figure 2, to enable forwarding validation, ASes need to
    announce the traffic-FCs binding relationships.  Specifically,
    suppose AS D confirms that the AS-path C->B->A for reaching prefix
-   P(A) is legitimate, it binds the traffic (src:P(D),dst:P(A)) (where
+   P(A) is legitimate, it binds the traffic (src:P(D), dst:P(A)) (where
    P(D) is the prefix owned by AS D) with the FC list F(C,D,P)-F(B,C,P)-
    F(A,B,P), and then publicly announces the binding relationship.
 
