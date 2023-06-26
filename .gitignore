@@ -17,7 +17,7 @@
 /versioned/
 Gemfile.lock
 archive.json
-draft-wang-sidr-frameworkoffcbgp.xml
+draft-wang-sidr-fcbgp-framework.xml
 package-lock.json
 report.xml
 !requirements.txt
