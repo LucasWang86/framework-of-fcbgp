@@ -83,6 +83,7 @@ Finally, due to the lack of practical protocols to check the consistency between
 
 This document specifies a framework named FC-BGP, an incrementally deployable security augment to the Internet inter-domain routing and forwarding. FC-BGP relies on the Resource Public Key Infrastructure (RPKI) certificates that attest to the allocation of AS number and IP address resources. To support FC-BGP, a BGP speaker needs to possess a private key associated with an RPKI router certificate {{RFC8209}} that corresponds to the BGP speaker's AS number.
 
+
 ## Requirements Language
 
 {::boilerplate bcp14-tagged}
