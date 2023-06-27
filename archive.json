@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-06-25T01:10:42.551621+00:00",
+  "timestamp": "2023-06-27T01:05:11.128903+00:00",
   "repo": "LucasWang86/framework-of-fcbgp",
   "labels": [
     {
@@ -50,5 +50,62 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOJoGWTs5T6Hgf",
+      "title": "copy draft from google drive.",
+      "url": "https://github.com/LucasWang86/framework-of-fcbgp/pull/1",
+      "state": "MERGED",
+      "author": "BasilGuo",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-26T11:18:49Z",
+      "updatedAt": "2023-06-26T11:24:14Z",
+      "baseRepository": "LucasWang86/framework-of-fcbgp",
+      "baseRefName": "main",
+      "baseRefOid": "330ac332309f84ec6c869a97a47de3ede939d157",
+      "headRepository": "LucasWang86/framework-of-fcbgp",
+      "headRefName": "BasilGuo-copy-draft",
+      "headRefOid": "7ac9e08f1b261ac7cb213bc30fcbf8bf6e4a439c",
+      "closedAt": "2023-06-26T11:24:13Z",
+      "mergedAt": "2023-06-26T11:24:13Z",
+      "mergedBy": "BasilGuo",
+      "mergeCommit": {
+        "oid": "f1fb5bf743e16a59f8c9239ecaf9029e9d411afb"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOJoGWTs5T6h16",
+      "title": "update: test to deploy the gh-pages.",
+      "url": "https://github.com/LucasWang86/framework-of-fcbgp/pull/2",
+      "state": "MERGED",
+      "author": "BasilGuo",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-26T12:25:49Z",
+      "updatedAt": "2023-06-26T12:29:23Z",
+      "baseRepository": "LucasWang86/framework-of-fcbgp",
+      "baseRefName": "main",
+      "baseRefOid": "7b7dd91c3e2fd206fd8d2ee6f48222346aa5badf",
+      "headRepository": "LucasWang86/framework-of-fcbgp",
+      "headRefName": "BasilGuo-test",
+      "headRefOid": "e60920c7eab72d1f2d726d035bbe4c489489d17a",
+      "closedAt": "2023-06-26T12:29:22Z",
+      "mergedAt": "2023-06-26T12:29:22Z",
+      "mergedBy": "BasilGuo",
+      "mergeCommit": {
+        "oid": "979f45f075843362733d36b7f2e6d77a1a7c1740"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
