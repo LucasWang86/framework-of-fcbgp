@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-06-27T01:05:11.128903+00:00",
+  "timestamp": "2023-06-29T01:03:13.407771+00:00",
   "repo": "LucasWang86/framework-of-fcbgp",
   "labels": [
     {
@@ -104,6 +104,32 @@
       "mergeCommit": {
         "oid": "979f45f075843362733d36b7f2e6d77a1a7c1740"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOJoGWTs5T_AJB",
+      "title": "Update draft-wang-sidr-fcbgp-framework.md",
+      "url": "https://github.com/LucasWang86/framework-of-fcbgp/pull/3",
+      "state": "OPEN",
+      "author": "LucasWang86",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-27T02:47:12Z",
+      "updatedAt": "2023-06-27T02:47:13Z",
+      "baseRepository": "LucasWang86/framework-of-fcbgp",
+      "baseRefName": "main",
+      "baseRefOid": "228e6a6f5306b36ae08f218611e893e2ee4b813c",
+      "headRepository": "LucasWang86/framework-of-fcbgp",
+      "headRefName": "LucasWang86-patch-1",
+      "headRefOid": "38704f1e45017183eba88394de600637d8f67ded",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
