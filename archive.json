@@ -1,0 +1,137 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-12-03T00:51:06.164065+00:00",
+  "repo": "LucasWang86/framework-of-fcbgp",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOJoGWTs5T6Hgf",
+      "title": "copy draft from google drive.",
+      "url": "https://github.com/LucasWang86/framework-of-fcbgp/pull/1",
+      "state": "MERGED",
+      "author": "BasilGuo",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-26T11:18:49Z",
+      "updatedAt": "2023-06-26T11:24:14Z",
+      "baseRepository": "LucasWang86/framework-of-fcbgp",
+      "baseRefName": "main",
+      "baseRefOid": "330ac332309f84ec6c869a97a47de3ede939d157",
+      "headRepository": "LucasWang86/framework-of-fcbgp",
+      "headRefName": "BasilGuo-copy-draft",
+      "headRefOid": "7ac9e08f1b261ac7cb213bc30fcbf8bf6e4a439c",
+      "closedAt": "2023-06-26T11:24:13Z",
+      "mergedAt": "2023-06-26T11:24:13Z",
+      "mergedBy": "BasilGuo",
+      "mergeCommit": {
+        "oid": "f1fb5bf743e16a59f8c9239ecaf9029e9d411afb"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOJoGWTs5T6h16",
+      "title": "update: test to deploy the gh-pages.",
+      "url": "https://github.com/LucasWang86/framework-of-fcbgp/pull/2",
+      "state": "MERGED",
+      "author": "BasilGuo",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-26T12:25:49Z",
+      "updatedAt": "2023-06-26T12:29:23Z",
+      "baseRepository": "LucasWang86/framework-of-fcbgp",
+      "baseRefName": "main",
+      "baseRefOid": "7b7dd91c3e2fd206fd8d2ee6f48222346aa5badf",
+      "headRepository": "LucasWang86/framework-of-fcbgp",
+      "headRefName": "BasilGuo-test",
+      "headRefOid": "e60920c7eab72d1f2d726d035bbe4c489489d17a",
+      "closedAt": "2023-06-26T12:29:22Z",
+      "mergedAt": "2023-06-26T12:29:22Z",
+      "mergedBy": "BasilGuo",
+      "mergeCommit": {
+        "oid": "979f45f075843362733d36b7f2e6d77a1a7c1740"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOJoGWTs5T_AJB",
+      "title": "Update draft-wang-sidr-fcbgp-framework.md",
+      "url": "https://github.com/LucasWang86/framework-of-fcbgp/pull/3",
+      "state": "OPEN",
+      "author": "LucasWang86",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-06-27T02:47:12Z",
+      "updatedAt": "2023-06-27T02:47:13Z",
+      "baseRepository": "LucasWang86/framework-of-fcbgp",
+      "baseRefName": "main",
+      "baseRefOid": "228e6a6f5306b36ae08f218611e893e2ee4b813c",
+      "headRepository": "LucasWang86/framework-of-fcbgp",
+      "headRefName": "LucasWang86-patch-1",
+      "headRefOid": "38704f1e45017183eba88394de600637d8f67ded",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
