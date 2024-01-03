@@ -42,7 +42,7 @@ author:
       country: China
       email: zhuotaoliu@tsinghua.edu.cn
   -
-      fullname: Li Qi
+      fullname: Qi Li
       org: Tsinghua University
       city: Beijing
       country: China
@@ -53,6 +53,12 @@ author:
       city: Beijing
       country: China
       email: jianping@cernet.edu.cn
+  -
+      fullname: Qi Li
+      org: Zhongguancun Laboratory
+      city: Beijing
+      country: China
+      email: liq@zgclab.edu.cn
 
 normative:
   RFC4271:
@@ -82,6 +88,7 @@ The representative schemes to secure inter-domain routing are RPKI {{RFC6480}} a
 Finally, due to the lack of practical protocols to check the consistency between the data plane forwarding and control-plane decisions, enforcing path authorization in the inter-domain forwarding has been not possible to date.
 
 This document specifies a framework named FC-BGP, an incrementally deployable security augment to the Internet inter-domain routing and forwarding. FC-BGP relies on the Resource Public Key Infrastructure (RPKI) certificates that attest to the allocation of AS number and IP address resources. To support FC-BGP, a BGP speaker needs to possess a private key associated with an RPKI router certificate {{RFC8209}} that corresponds to the BGP speaker's AS number.
+
 
 ## Requirements Language
 
